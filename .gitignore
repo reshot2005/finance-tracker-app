@@ -1,0 +1,12 @@
+@"
+node_modules/
+dist/
+.vercel/
+.vscode/
+.git-credentials
+.env
+.env.*
+*.log
+*.local
+.vite/
+"@ | Out-File -Encoding utf8 .gitignore
